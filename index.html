@@ -1,0 +1,88 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parallax + Navegación</title>
+  
+</head>
+<link rel="stylesheet" href="css/styles.css">
+<body>
+
+  <!-- NAVBAR CON ANCLAS -->
+  <!--
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#sobre-nosotros">Sobre Nosotros</a>
+    <a href="#segunda">Galería</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+  -->
+   <nav>
+    <button onclick="irA('inicio')">Inicio</button>
+    <button onclick="irA('sobre-nosotros')">Servicios</button>
+    <button onclick="window.location.href='galeria.html';" >Galeria</button>
+    <button onclick="irA('contacto')">Contacto</button>
+    <button onclick="window.location.href='juego.html';" >Premios</button>
+  </nav>
+
+  <!-- SECCIÓN 1: Parallax con imagen de montaña -->
+  <section class="parallax" id="inicio">
+    <div class="parallax-texto">
+      <h1>Esenciales que nunca fallan</h1>
+      <p>Descubre outfits básicos que elevan tu estilo todos los días</p>
+      <p class="hint-teclado">
+        Explora nuestra colección | Encuentra tu look ideal
+      </p>
+    </div>
+  </section>
+
+  <!-- SECCIÓN 2: Contenido normal -->
+  <section class="seccion-contenido" id="sobre-nosotros">
+    <h2>Sobre Nosotras</h2>
+    <p>
+      Somos una marca enfocada en crear outfits básicos para mujeres que buscan verse bien sin complicarse. Creemos en prendas versátiles, cómodas y fáciles de combinar para el día a día. Nuestro objetivo es que cada pieza se adapte a tu estilo y te haga sentir segura en cualquier momento.
+    </p>
+    <button class="boton-nav" onclick="irA('experiencias')">
+      Descubre la colección ↓
+    </button>
+  </section>
+
+<!-- SECCIÓN 2: Contenido normal -->
+<section class="seccion-contenido scroll" id="experiencias">
+    <h2>Looks reales</h2>
+    <p>
+      Inspírate con outfits creados con nuestras prendas básicas. Estilo real para mujeres reales.
+    </p>
+    <button class="boton-nav" onclick="irA('segunda')">
+      Ver outfits ↓
+    </button>
+  </section>
+
+  <!-- SECCIÓN 3: Parallax con imagen de bosque -->
+  <section class="parallax" id="segunda">
+    <div class="parallax-texto">
+      <h1>Nuestra colección</h1>
+      <p>Explora prendas esenciales diseñadas para combinar entre sí y crear outfits únicos.</p>
+      
+      <button class="boton-nav" onclick="window.location.href='galeria.html';" >Ver galería</button>
+    </div>
+    
+  </section>
+
+
+
+  <!-- SECCIÓN 4: Contenido normal -->
+  <section class="seccion-contenido" id="contacto">
+    <h2>Contáctanos</h2>
+    <p>
+      ¿Tienes dudas o quieres más información? </p>
+    <p> 
+      Estamos aquí para ayudarte a encontrar tu outfit ideal.
+    </p>
+    <button class="boton-nav" onclick="irA('inicio')">
+      Volver al inicio ↑
+    </button>
+  </section>
+  <script src="js/index.js"></script>
+</body>
+</html>
