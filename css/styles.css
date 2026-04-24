@@ -78,7 +78,7 @@ nav button:hover {
 .scroll {
   background-image:
     linear-gradient(rgba(247, 244, 241, 0.86), rgba(247, 244, 241, 0.86)),
-    url("https://i.postimg.cc/XBdFtZHT/Whats-App-Image-2026-04-24-at-10-29-32.jpg");
+    url("https://i.postimg.cc/njKCyTXG/Whats-App-Image-2026-04-24-at-10-29-32.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: scroll;
@@ -118,13 +118,13 @@ nav button:hover {
 #inicio {
   background-image:
     linear-gradient(rgba(20, 20, 20, 0.25), rgba(20, 20, 20, 0.25)),
-    url("https://i.postimg.cc/0Mhs4jFT/Whats-App-Image-2026-04-24-at-10-29-33.jpg");
+    url("https://i.postimg.cc/wy57CF12/Whats-App-Image-2026-04-24-at-10-29-33.jpg");
 }
 
 #segunda {
   background-image:
     linear-gradient(rgba(20, 20, 20, 0.28), rgba(20, 20, 20, 0.28)),
-    url("https://i.postimg.cc/62FXPqgr/Whats-App-Image-2026-04-24-at-10-29-33-(1).jpg");
+    url("https://i.postimg.cc/N9853bK7/Whats-App-Image-2026-04-24-at-10-29-33-(1).jpg");
 }
 
 /* TEXTO SOBRE PARALLAX */
