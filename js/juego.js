@@ -196,7 +196,7 @@
     limpiarSeleccion();
 
     // ¿Ganó el juego?
-    if (paresEncontrados === productos.length) {
+    if (paresEncontrados === Productos.length) {
       detenerTimer();
       setTimeout(mostrarVictoria, 500); // Esperamos un poco para mostrar el mensaje
     }
